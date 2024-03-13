@@ -1,0 +1,240 @@
+
+    /*  flexbox to make the classes tabs wrap in a 3x2 setup.
+        Use flexbox to create equal spacing between each box. 
+
+        HELP: how to put them all is same row ? 
+        how to crop image and make mini containers? 
+        */
+
+#q1-navbar {
+        background: #0c224d;
+        color: white;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+}
+
+.navbaritem1{
+    padding: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+}
+
+#q2-navbar {
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction:row;  
+        
+}
+
+
+.navbaritem2{
+    padding: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;  
+    display: flex;
+
+}
+
+.endpage{
+    background: #0c224d;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+/*how i make the cart title to the right?  */
+.navbaritem3{
+    padding: 10px;
+    font-family:"DM Serif Display", serif;
+    margin-right: 20px; 
+    display: flex;
+
+}
+
+/* how do i make the image in the middle? */
+.sodoipic{
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    width:100%;
+    padding-left:10px;
+    
+}
+/*this is home page  */
+
+.howwestartedtitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.p1{
+    padding-bottom: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left:30px;
+    padding-right:30px;
+   
+    
+}
+
+.p2,.p3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.p3{
+    padding-bottom:20px;
+}
+
+/*this is the menu page  ?  */
+
+
+.q3-navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+
+}
+
+#navbarbox{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background: rgb(231, 181, 116);
+    border-radius:30px 30px 30px 30px;
+    margin: 15px;
+    padding:10px;
+    justify-content: center ;
+    
+
+}
+
+
+
+
+
+
+
+#menubox{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:50px;
+
+}
+
+/*the menuitems go over the bottom when you amke screen small ?  */
+
+.menubox1,.menubox2,.menubox3,.menubox4{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background: rgb(231, 231, 158);
+    border-radius:30px 30px 30px 30px;
+    margin: 30px;
+    padding:40px;
+    
+
+}
+
+.item_img{
+    display:flex;
+    width: 50px;
+   
+    
+}
+
+
+.after_pic_line{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction:row;   
+    justify-content: center; 
+    
+}
+
+#after_line_words{
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    
+
+}
+
+#words1,#words2,#words3,#words4{
+
+    font-size:15px;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+}
+
+/*the name is not staying in the middle whne you make screen smaller  */
+
+#name{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size:20px;
+    justify-content: center;
+
+}
+
+#price{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size:20px;
+
+}
+
+
+#addtocart{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size:20px;
+
+}
+
+#navbaritem4{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size:18px;
+    margin:5px
+}
+
+
+.cart{
+    padding: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;  
+    display: flex;
+
+}
