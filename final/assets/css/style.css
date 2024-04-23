@@ -1,0 +1,200 @@
+
+    /*  flexbox to make the classes tabs wrap in a 3x2 setup.
+        Use flexbox to create equal spacing between each box. 
+
+        HELP: how to put them all is same row ? 
+        how to crop image and make mini containers? 
+        */
+
+#q1-navbar {
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+}
+
+.navbaritem1{
+    padding: 10px;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+}
+
+#q2-navbar {
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction:row; 
+        justify-content:center; 
+        
+}
+
+
+.navbaritem2{
+    padding: 10px;
+    font-family: "Noto Serif", serif;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 20px;  
+    display: center;
+    font-style: italic;
+   
+    
+    
+
+}
+
+.navbaritem2{
+    color:black;
+    text-decoration:none;
+    
+
+}
+
+
+
+.navbaritem2:active{
+    background:lightgrey;
+
+}
+
+
+.navbaritem2:hover{
+    text-decoration:underline;
+    cursor:pointer; 
+    color:black;
+
+}
+
+
+.navbaritem2:visited{
+    text-decoration:none;
+    color:black; 
+
+}
+
+
+.insta_logo{
+    padding: 10px;
+    font-family: "Noto Serif", serif;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 20px;  
+    display: center;
+    font-style: italic;
+
+}
+
+
+.insta_logo:active{
+    background:lightgrey;
+
+}
+
+
+.insta_logo:hover{
+    text-decoration:underline;
+    cursor:pointer; 
+    color:black;
+
+}
+
+
+.insta_logo:visited{
+    text-decoration:none;
+    color:black; 
+
+}
+
+
+
+
+#img_contain {
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction:row; 
+    justify-content:center; 
+    align-items: center;
+        
+}
+
+
+
+
+.bio_pic{
+    padding: 50px;
+    margin-left: 80px;
+    padding-left:100px;
+
+}
+
+.bio {
+    padding: 50px;
+    font-family: "Noto Serif", serif;
+    font-weight: normal;
+    margin-right: 80px;
+    margin-left: 20px;
+    padding-right:100px;
+
+}
+
+
+
+
+#mis_fotos_contain{
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+
+}
+
+.mis_fotos{
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    padding-top:50px;
+    padding-bottom:10px;
+    padding-left: 320px;
+
+}
+
+
+.mis_fotos_bio{
+    font-family: "Noto Serif", serif;
+    font-weight: normal;
+    padding-left: 320px;
+    padding-right:680px;
+
+}
+
+
+
+
+
+
+.pic{
+    padding:30px;
+    animation-name: run;
+    animation-direction:normal;
+    animation-duration:1s;
+    animation-iteration-count: 1;
+    
+}
+
+
+
+@keyframes run {
+    from {
+        transfrom: translateY(-40px);
+      }
+    to { 
+        transform:translateY(150px); 
+       }
+           
+}
+
